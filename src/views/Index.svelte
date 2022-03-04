@@ -86,11 +86,11 @@
                 >
                   <i class="fab fa-bitcoin" />
                 </div>
-                <h6 class="text-xl font-semibold">Bitcoin Only</h6>
+                <h6 class="text-xl font-semibold">Bitcoin Only & Open Source</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
-                  We leverage the Liquid Network, a bitcoin layer 2 solution to
+                  We leverage the Liquid Network, a bitcoin layer-2 solution to
                   utilize the world's leading and original decentralized
-                  blockchain.
+                  blockchain. All of our code is fully auditable.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@
                 </div>
                 <h6 class="text-xl font-semibold">White Label Service</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
-                  We offer a full suite of services making it possible to
+                  We offer a full suite of development services making it possible to
                   realize your vision and provide ongoing maintenance if
                   requested.
                 </p>
