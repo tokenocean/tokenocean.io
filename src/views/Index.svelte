@@ -303,9 +303,9 @@
             <h2 class="text-4xl font-semibold">About Us</h2>
             <p class="text-lg leading-relaxed m-4 text-blueGray-500">
               Kris Constable and Adam Soltys - the co-founders of tokenocean.io,
-              founded the first bitcoin-based white label NFT marketplace in
-              the world by using the Liquid Network. Way ahead of their time,
-              they are working with billion dollar brands building their NFT
+              founded the first bitcoin-based white label NFT marketplace in the
+              world by using the Liquid Network. Way ahead of their time, they
+              are working with billion dollar brands building their NFT
               marketplaces, and have scaled their stack to work for smaller
               influencers and entrepreneurs alike to build the use-cases that
               will be ubiquitous in our collective future.
@@ -504,6 +504,7 @@
                   <input
                     id="full-name"
                     type="text"
+                    required
                     class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     placeholder="Full Name"
                   />
@@ -519,6 +520,7 @@
                   <input
                     id="email"
                     type="email"
+                    required
                     class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     placeholder="Email Address"
                   />
@@ -564,6 +566,7 @@
                   <select
                     id="revenue"
                     type="revenue"
+                    required
                     class="border-0 px-3 py-3 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   >
                     <option value="-100000">Under $100,000</option>
@@ -585,6 +588,7 @@
                   <textarea
                     id="message"
                     rows="4"
+                    required
                     cols="80"
                     class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                     placeholder="Type a message..."
