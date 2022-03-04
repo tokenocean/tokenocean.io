@@ -141,7 +141,7 @@
         <div class="flex flex-wrap items-center mt-16 md:mt-32">
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <div
-              class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
+              class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-secondary"
             >
               <i class="fas fa-user-friends text-xl" />
             </div>
