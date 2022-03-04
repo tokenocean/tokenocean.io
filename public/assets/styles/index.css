@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.custom {
+  margin: 0 auto;
+  padding: inherit;
+}
+
+.customborder {
+  border-top: 8px solid #0067d9;
+  border-bottom: 8px solid #0067d9;
+}
