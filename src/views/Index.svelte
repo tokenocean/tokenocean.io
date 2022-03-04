@@ -86,7 +86,9 @@
                 >
                   <i class="fab fa-bitcoin" />
                 </div>
-                <h6 class="text-xl font-semibold">Bitcoin Only & Open Source</h6>
+                <h6 class="text-xl font-semibold">
+                  Bitcoin Only & Open Source
+                </h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
                   We leverage the Liquid Network, a bitcoin layer-2 solution to
                   utilize the world's leading and original decentralized
@@ -108,9 +110,9 @@
                 </div>
                 <h6 class="text-xl font-semibold">White Label Service</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
-                  We offer a full suite of development services making it possible to
-                  realize your vision and provide ongoing maintenance if
-                  requested.
+                  We offer a full suite of development services making it
+                  possible to realize your vision and provide ongoing
+                  maintenance if requested.
                 </p>
               </div>
             </div>
@@ -369,28 +371,29 @@
                   CTO
                 </p>
                 <div class="mt-6">
-                  <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    ><a
-                      href="https://twitter.com/adamsoltys"
-                      target="_blank"
-                      rel="noreferrer"
+                  <a
+                    href="https://twitter.com/adamsoltys"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button
+                      class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
                     >
-                      <i class="fab fa-twitter" /></a
+                      <i class="fab fa-twitter" />
+                    </button></a
+                  ><a
+                    href="https://github.com/asoltys"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button
+                      class="bg-gray-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
                     >
-                  </button>
-                  <button
-                    class="bg-gray-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    ><a
-                      href="https://github.com/asoltys"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i class="fab fa-github" /></a
-                    >
-                  </button>
+                      <i class="fab fa-github" />
+                    </button></a
+                  >
                 </div>
               </div>
             </div>
