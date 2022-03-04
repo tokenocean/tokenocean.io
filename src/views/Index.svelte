@@ -285,7 +285,7 @@
       </h2>
       <div class="flex justify-center items-center">
         <div
-          class="block md:flex justify-center items-center space-y-10 px-4 md:space-y-0 md:space-x-10"
+          class="block lg:flex justify-center items-center space-y-20 px-4 lg:space-y-0 lg:space-x-10 xl:space-x-20"
         >
           <img src={rare} alt="" class="mx-auto" />
           <img src={playboy} alt="" class="mx-auto" />
