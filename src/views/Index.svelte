@@ -303,7 +303,7 @@
             <h2 class="text-4xl font-semibold">About Us</h2>
             <p class="text-lg leading-relaxed m-4 text-blueGray-500">
               Kris Constable and Adam Soltys - the co-founders of tokenocean.io,
-              co-founded the first bitcoin-based white label NFT marketplace in
+              founded the first bitcoin-based white label NFT marketplace in
               the world by using the Liquid Network. Way ahead of their time,
               they are working with billion dollar brands building their NFT
               marketplaces, and have scaled their stack to work for smaller
