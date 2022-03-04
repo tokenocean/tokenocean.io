@@ -47,9 +47,7 @@ const indexTemplate = `<!--
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-
     <link rel="shortcut icon" href="/favicon.png" />
-
     <link rel="stylesheet" href="/assets/styles/tailwind.css" />
 		<link rel="stylesheet" href="/assets/styles/index.css" />
     <link
@@ -65,7 +63,7 @@ const indexTemplate = `<!--
       }
     </script>
 
-
+    <script defer src="/build/bundle.js"></script>
   </head>
 
   <body class="text-blueGray-700 antialiased">
