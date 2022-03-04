@@ -50,7 +50,8 @@ const indexTemplate = `<!--
 
     <link rel="shortcut icon" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
-    <link rel="stylesheet" href="/build/bundle.css" />
+    <link rel="stylesheet" href="/assets/styles/tailwind.css" />
+		<link rel="stylesheet" href="/assets/styles/index.css" />
     <link
       rel="stylesheet"
       href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"

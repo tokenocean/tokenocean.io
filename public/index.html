@@ -25,7 +25,8 @@
 
     <link rel="shortcut icon" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
-    <link rel="stylesheet" href="/build/bundle.css" />
+    <link rel="stylesheet" href="/assets/styles/tailwind.css" />
+    <link rel="stylesheet" href="/assets/styles/index.css" />
     <link
       rel="stylesheet"
       href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
@@ -35,18 +36,22 @@
 
     <script>
       if (process === undefined) {
-        var process = { env: {} };
+        var process = {
+          env: {
+            PRODUCTION: true,
+          },
+        };
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script defer src="/build/bundle.js"></script>
+    <script defer src="/notus-svelte/build/bundle.js"></script>
   </head>
 
   <body class="text-blueGray-700 antialiased">
     <noscript>
       <strong
-        >We're sorry but notus-svelte doesn't work properly without
-        JavaScript enabled. Please enable it to continue.</strong
+        >We're sorry but notus-svelte doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
       >
     </noscript>
     <div id="app"></div>

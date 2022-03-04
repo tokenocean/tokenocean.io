@@ -1279,11 +1279,6 @@ select {
   background-color: rgba(0, 103, 217, var(--tw-bg-opacity));
 }
 
-.bg-offblack {
-  --tw-bg-opacity: 1;
-  background-color: rgba(19, 19, 19, var(--tw-bg-opacity));
-}
-
 .bg-brightgreen {
   --tw-bg-opacity: 1;
   background-color: rgba(12, 245, 116, var(--tw-bg-opacity));

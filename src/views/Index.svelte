@@ -15,8 +15,6 @@
   const kris = "/assets/img/kris.jpg";
   const adam = "/assets/img/adam.jpg";
   const ocean = "/assets/img/ocean.jpg";
-
-  export let location;
 </script>
 
 <div>
