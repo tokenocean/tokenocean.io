@@ -8,5 +8,6 @@ This is the repo for the tokenocean.io website. It uses Svelte and Tailwind.
 `npm run dev`
 `npm run build`
 `npm run start`
+`npm run build:tailwind` (each time you add a new class, a class that does not exist in src/assets/styles/tailwind.css, you will need to run this command)
 
 Based on: https://github.com/creativetimofficial/notus-svelte?ref=ns-index-navbar
