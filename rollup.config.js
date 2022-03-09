@@ -57,6 +57,37 @@ const indexTemplate = `<!--
     <link rel="stylesheet" href="/assets/styles/tailwind.css" />
     <title>Token Ocean</title>
 
+	 <meta
+		 name="description"
+		 content="We're a white label bitcoin (liquid) NFT marketplace provider for new and existing brands."
+	 />
+
+	 <meta property="og:url" content="https://tokenocean.io/" />
+	 <meta property="og:type" content="website" />
+	 <meta property="og:title" content="http://www.tokenocean.io/" />
+	 <meta
+		 property="og:description"
+		 content="We're a white label bitcoin (liquid) NFT marketplace provider for new and existing brands."
+	 />
+	 <meta
+		 property="og:image"
+		 content="https://tokenocean.io/public/assets/img/logo.png"
+	 />
+
+	 <!-- Twitter Meta Tags -->
+	 <meta name="twitter:card" content="summary_large_image" />
+	 <meta property="twitter:domain" content="tokenocean.io" />
+	 <meta property="twitter:url" content="https://tokenocean.io/" />
+	 <meta name="twitter:title" content="http://www.tokenocean.io/" />
+	 <meta
+		 name="twitter:description"
+		 content="We're a white label bitcoin (liquid) NFT marketplace provider for new and existing brands."
+	 />
+	 <meta
+		 name="twitter:image"
+		 content="https://tokenocean.io/public/assets/img/logo.png"
+	 />
+
     <script>
       if (process === undefined) {
         var process = { env: {<<process-env-status>>} };
