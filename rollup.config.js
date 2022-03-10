@@ -71,7 +71,7 @@ const indexTemplate = `<!--
 	 />
 	 <meta
 		 property="og:image"
-		 content="https://tokenocean.io/public/assets/img/logo.png"
+		 content="https://tokenocean.io/assets/img/logo.png"
 	 />
 
 	 <!-- Twitter Meta Tags -->
@@ -85,7 +85,7 @@ const indexTemplate = `<!--
 	 />
 	 <meta
 		 name="twitter:image"
-		 content="https://tokenocean.io/public/assets/img/logo.png"
+		 content="https://tokenocean.io/assets/img/logo.png"
 	 />
 
     <script>
