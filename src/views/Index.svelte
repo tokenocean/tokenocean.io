@@ -484,126 +484,133 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">
-            <div
-              class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200"
-            >
-              <div class="flex-auto p-5 lg:p-10" id="book">
-                <h4 class="text-2xl font-semibold">Book a consultation</h4>
-                <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                  We're excited to work with you! Please describe briefly your
-                  bitcoin NFT idea or project so we may provide a specific and
-                  timely reply to your inquiry.
-                </p>
-                <div class="relative w-full mb-3 mt-8">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="full-name"
-                  >
-                    Name *
-                  </label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    required
-                    class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    placeholder="Full Name"
-                  />
-                </div>
-
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="email"
-                  >
-                    Email *
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    required
-                    class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    placeholder="Email Address"
-                  />
-                </div>
-
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="phone"
-                  >
-                    Phone
-                  </label>
-                  <input
-                    id="phone"
-                    type="phone"
-                    class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    placeholder="Phone Number"
-                  />
-                </div>
-
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="company"
-                  >
-                    Company
-                  </label>
-                  <input
-                    id="company"
-                    type="company"
-                    class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    placeholder="Company Name"
-                  />
-                </div>
-
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="revenue"
-                  >
-                    Approximate Annual Revenue *
-                  </label>
-                  <select
-                    id="revenue"
-                    type="revenue"
-                    required
-                    class="border-0 px-3 py-3 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  >
-                    <option value="-100000">Under $100,000</option>
-                    <option value="100000-500000">$100,000 - $500,000</option>
-                    <option value="500000-1000000">$500,000 - $1,000,000</option
+            <form action="https://formspree.io/f/xwkybjvp" method="POST">
+              <div
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200"
+              >
+                <div class="flex-auto p-5 lg:p-10" id="book">
+                  <h4 class="text-2xl font-semibold">Book a consultation</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                    We're excited to work with you! Please describe briefly your
+                    bitcoin NFT idea or project so we may provide a specific and
+                    timely reply to your inquiry.
+                  </p>
+                  <div class="relative w-full mb-3 mt-8">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="full-name"
                     >
-                    <option value="1m-10m">$1m - $10m</option>
-                    <option value="10m+">$10m +</option>
-                  </select>
-                </div>
+                      Name *
+                    </label>
+                    <input
+                      id="full-name"
+                      type="text"
+                      required
+                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Full Name"
+                      name="full-name"
+                    />
+                  </div>
 
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="message"
-                  >
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    rows="4"
-                    required
-                    cols="80"
-                    class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Type a message..."
-                  />
-                </div>
-                <div class="text-center mt-6">
-                  <button
-                    class="bg-secondary text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                  >
-                    Send Message
-                  </button>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="email"
+                    >
+                      Email *
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      required
+                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Email Address"
+                      name="email"
+                    />
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="phone"
+                    >
+                      Phone
+                    </label>
+                    <input
+                      id="phone"
+                      type="tel"
+                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Phone Number"
+                      name="phone"
+                    />
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="company"
+                    >
+                      Company
+                    </label>
+                    <input
+                      id="company"
+                      type="text"
+                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Company Name"
+                      name="company"
+                    />
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="revenue"
+                    >
+                      Approximate Annual Revenue *
+                    </label>
+                    <select
+                      id="revenue"
+                      required
+                      class="border-0 px-3 py-3 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    >
+                      <option value="-100000">Under $100,000</option>
+                      <option value="100000-500000">$100,000 - $500,000</option>
+                      <option value="500000-1000000"
+                        >$500,000 - $1,000,000</option
+                      >
+                      <option value="1m-10m">$1m - $10m</option>
+                      <option value="10m+">$10m +</option>
+                    </select>
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      for="message"
+                    >
+                      Message *
+                    </label>
+                    <textarea
+                      id="message"
+                      rows="4"
+                      required
+                      cols="80"
+                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      placeholder="Type a message..."
+                      name="message"
+                    />
+                  </div>
+                  <div class="text-center mt-6">
+                    <button
+                      class="bg-secondary text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="button"
+                    >
+                      Send Message
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
