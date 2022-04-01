@@ -76,6 +76,16 @@
             <i class="fas fa-handshake mr-1" /> Book a Consultation
           </button>
         </li>
+
+        <li class="flex items-center">
+          <a
+            href="https://market.tokenocean.io"
+            class="bg-blueGray-200 md:bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+            type="button"
+          >
+            <i class="fas fa-water mr-1" /> Market
+          </a>
+        </li>
       </ul>
     </div>
   </div>
